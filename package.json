@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "todolist",
+  "version": "1.0.0",
+  "main": "people.js",
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "bcrypt": "^5.0.0",
+    "body-parser": "^1.19.0",
+    "env": "^0.0.2",
+    "express": "^4.17.1",
+    "lodash": "^4.17.20"
+  }
+}
