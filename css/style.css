@@ -1,0 +1,60 @@
+body{
+  font-family: 'Raleway', sans-serif;
+}
+
+.navbar-brand{
+  margin: 0.75em;
+  font-size: 1.5em !important;
+  font-weight: bold;
+  color: white !important;
+}
+
+.fa-clipboard{
+  padding-right: 54em;
+  font-size: 1.6em;
+}
+
+#sign_up{
+  background-color: white;
+}
+
+#sign_up:hover{
+  background-color: #C8C8C8;
+}
+
+#login{
+  background-color: white;
+}
+
+#login:hover{
+  background-color: #C8C8C8;
+}
+
+.navbar{
+  background-color: #936725;
+}
+
+.About{
+  margin-left: 0.75rem;
+}
+
+.btn{
+}
+
+.nav-item{
+  color: white !important;
+}
+
+#login_form{
+  margin: 2rem;
+}
+
+#name{
+  margin-top: 2rem !important;
+}
+
+#about_text{
+  width: 50%;
+  margin-left: 27em;
+  
+}
