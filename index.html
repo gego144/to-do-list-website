@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<title>ToDo</title>
+	<link rel="stylesheet" type="text/css" href="css/style.css" />
+	<link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+	<script src="https://kit.fontawesome.com/cbc0ab4bba.js" crossorigin="anonymous"></script>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+	<script src="script.js"></script>
+</head>
+
+<body>
+	<nav class="navbar navbar-light">
+	  <div class="container-fluid">
+	    <a id="MainName" class="navbar-brand" href="index.html">ToDoList</a>
+			<i id="clipboard" class="fas fa-clipboard" ></i>
+	    <form class="d-flex">
+	      <button id="sign_up" onclick="window.location.href='signup.html'" class="btn btn-outline-success me-2" type="button">Sign up</button>
+	      <button id="login" onclick="window.location.href='login.html'" class="btn btn-outline-success me-2" type="button">Login</button>
+	    </form>
+	  </div>
+	</nav>
+
+	<br>
+	<nav class="About">
+		<h1 style="font-style: italic;">Welcome</h1>
+		<br>
+		<p id="about_text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis eleifend sed diam nec cursus. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Quisque vitae accumsan ligula. Donec in lacus felis. Phasellus vitae mollis dolor. In hac habitasse platea dictumst. Suspendisse euismod, lacus at egestas eleifend, diam lacus ullamcorper ipsum, quis eleifend nisl nisl quis sem. </p>
+		<br>
+		<h1 style="font-style: italic;">What you can do</h1>
+		<br>
+
+
+		<div class="container">
+			<div class="row">
+			  <div class="col-sm">
+					<div class="card" style="width: 25rem; height: 25rem;">
+						<div class="card-body">
+							<h5 class="card-title">Add new notes</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+			  </div>
+
+			  <div class="col-sm">
+					<div class="card" style="width: 25rem; height: 25rem;">
+						<div class="card-body">
+							<h5 class="card-title">Edit your notes</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+			  </div>
+
+			  <div class="col-sm">
+
+					<div class="card" style="width: 25rem; height: 25rem;">
+						<div class="card-body">
+							<h5 class="card-title">Delete your notes</h5>
+							<p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+							<a href="#" class="btn btn-primary">Go somewhere</a>
+						</div>
+					</div>
+
+			  </div>
+			</div>
+		</div>
+
+	</nav>
+	<footer>
+
+		<nav class="navbar navbar-expand-lg fixed-bottom navbar-light bg-dark">
+		  <a class="navbar-brand" href="">ToDoList</a>
+		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+		    <span class="navbar-toggler-icon"></span>
+		  </button>
+		  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+		    <div class="navbar-nav">
+		      <a class="nav-item nav-link active" href="https://www.amazon.com/">Resume <span class="sr-only"></span></a>
+		      <a class="nav-item nav-link" href="#">GitHub</a>
+		      <a class="nav-item nav-link" href="#">Linkedin</a>
+		    </div>
+		  </div>
+		</nav>
+
+
+
+	</footer>
+</body>
+</html>
